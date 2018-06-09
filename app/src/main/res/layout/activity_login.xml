@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.fido.LoginAct"
+    android:background="@color/Grey"
+    >
+
+    <ImageView
+        android:id="@+id/a1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentLeft="true"
+        />
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layerType="software"
+        android:typeface="sans"
+        android:text="Signup"
+        android:shadowColor="@color/SeaGreen"
+        android:textColor="@color/colorAccent"
+        />
+    <EditText
+        android:id="@+id/a3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="UserName-"
+        android:textColor="@color/White"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/a1"
+        android:layout_marginTop="20dp"
+        />
+    <EditText
+        android:id="@+id/a4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password-"
+        android:textColor="@color/White"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/a3"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/a5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textColor="@color/HotPink"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/a4"
+        android:layout_marginTop="20dp"
+        android:shadowColor="@color/White"
+        />
+
+    <ImageButton
+        android:id="@+id/a6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/a5"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/facebook1"
+
+        />
+
+    <ImageButton
+        android:id="@+id/a8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/a5"
+        android:src="@drawable/google"
+        />
+    <ImageButton
+        android:id="@+id/a9"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@id/a6"
+        android:layout_below="@id/a5"
+        android:layout_marginLeft="35dp"
+        android:src="@drawable/phone"
+        />
+
+</RelativeLayout>
